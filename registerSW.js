@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/GMB-Code4/sw.js', { scope: '/GMB-Code4/' })})}
